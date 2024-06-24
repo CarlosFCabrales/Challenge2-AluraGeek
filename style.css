@@ -1,0 +1,149 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;    
+}
+
+* {
+    margin: 0;
+    padding: 0;      
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    font-size: 2vw; 
+}
+
+header {
+    position: relative;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    gap: 1%;    
+    background-color: #b0c2da;
+    padding: 1% 0;
+}
+
+.logo {
+    background-color: blue;
+}
+
+img {
+    width: 20%;    
+    height: auto;
+}
+
+.nombreTienda {    
+    font-size: 1.8vw;
+    /* color: azure;    */
+}
+
+main {
+    width: 86%;    
+    margin: auto;
+    padding: 3% 1%;
+    position: relative;
+    display: flex;
+    gap: 1%;
+    /* background-color: aquamarine; */
+}
+
+.galeria {
+    width: 60%;
+    position: relative;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;    
+    /* background-color: aqua; */
+}
+
+.columnaItems {
+    position: relative;
+    display: flex;
+    justify-content: center;  
+    gap: 2%;
+    flex-wrap: wrap;  
+    box-sizing: border-box;    
+    /* background-color: rgb(255, 0, 204); */
+}
+
+.itemImagen {
+    width: 300px;
+    height: auto;
+}
+
+.itemVenta{
+    width: auto;  
+    border: 2px solid rgb(96, 96, 96);
+    border-radius: 6px;
+    padding: 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin-bottom: 3%;
+    font-size: 0.6rem;            
+    /* background-color: rgb(231, 247, 255); */
+}
+
+
+h2 {
+    font-size: 2.5vw;
+    margin-bottom: 2%;
+}
+
+.agregar {
+    width: 40%;
+    position: relative;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    align-items: center;       
+    /* background-color: darkorange; */
+}
+
+.botones {
+    margin-top: 3%;
+    position: relative;
+    display: flex;
+    gap: 8%;        
+}
+
+input[type=text]  {    
+    padding: 2%;        
+    font-size: 0.7rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    border-color: rgb(116, 116, 116);
+    box-sizing: border-box;
+}
+
+input[type=submit] {          
+    font-size: 0.7rem;    
+    padding: 6% 8%;
+    border: 1px solid #ccc;
+    border-radius: 10px;    
+    border-color: rgb(116, 116, 116);
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    color: white;
+    background-color: rgb(154, 154, 154);
+}
+
+
+footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    display: flex;        
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    padding: 3% 0;
+    background-color: #b0c2da;
+}

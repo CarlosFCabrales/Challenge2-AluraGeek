@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header>
+        <img src="images/LogoAluraGeek.png">
+        
+        <div class="nombreTienda">
+            <h1>Alura Geek</h1>
+        </div>        
+    </header>
+    
+    <main>
+        <section class="galeria">            
+            <h2>productos</h2>
+            <div class="columnaItems" data-lista>
+            <!-- <div class="itemVenta">
+                    <img class="itemImagen" src="images/miniNes.jpg">
+                    <p class="itemDescripcion">Descripcion</p>
+                    <p class="itemPrecio">Precio</p>
+                </div>
+
+                <div class="itemVenta">
+                    <img class="itemImagen" src="images/miniGB.jpg">
+                    <p class="itemDescripcion">Descripcion</p>
+                    <p class="itemPrecio">Precio</p>
+                </div>  -->
+            </div>
+        </section>
+        
+        <form class="agregar" data-formulario>
+            <h2>agregar producto</h2>
+            <input type="text" id="nImage" name="newImagen" required placeholder="Imagen.." data-fotito>
+            <input type="text" id="nProducto" name="newProducto" required placeholder="Nombre producto.." data-descripcion>
+            <input type="text" id="nPrecio" name="newPrecio" required placeholder="Precio.." data-precio>            
+            <div class="botones">
+                <input type="submit" value="Enviar">
+                <input type="submit" onclick="limpia();" value="Limpiar">
+            </div>
+        </form>
+    </main>
+
+    <script src="mostrarProductos.js" type="module"></script>
+    <script src="crearProducto.js" type="module"></script>
+    <script src="app.js"></script>
+
+    <footer>
+        <P>CREADO POR MI</P>
+    </footer>
+</body>
+</html>
