@@ -1,52 +1,40 @@
 {
   "productos": [
     {
-      "id": 1,
+      "id": "1",
       "fotito": "images/miniNes.jpg",
       "descripcion": "Super Nintendo",
-      "precio": "$1,500"
+      "precio": "$19,500"
     },
     {
-      "id": 2,
+      "id": "2",
       "fotito": "images/miniGB.jpg",
       "descripcion": "Sega Saturn",
       "precio": "$3,500"
     },
     {
-      "id": 3,
+      "id": "3",
       "fotito": "images/miniGB.jpg",
       "descripcion": "Sony Playstation",
       "precio": "$1,000"
     },
     {
-      "id": 4,
+      "id": "4",
       "fotito": "images/miniNes.jpg",
       "descripcion": "Dreamcast",
-      "precio": "$5,000"
+      "precio": "$5,900"
     },
     {
-      "id": 5,
-      "fotito": "https://media.patriots.win/post/faAnyjh0Hk9K.png",
-      "descripcion": "Cartoon",
-      "precio": "$5"
-    },
-    {
-      "id": 6,
-      "fotito": "images/miniGB.jpg",
-      "descripcion": "Dreamcast",
-      "precio": "$5,000"
-    },
-    {
-      "id": "1dee",
-      "fotito": "https://media.patriots.win/post/faAnyjh0Hk9K.png",
+      "id": "81d7",
+      "fotito": "images/japon.jpg",
       "descripcion": "Cartoon",
       "precio": "$5.00"
     },
     {
-      "id": "2c67",
-      "fotito": "https://media.patriots.win/post/NDeagtuRK4lc.jpeg",
-      "descripcion": "politico",
-      "precio": "0.00"
+      "id": "2f4b",
+      "fotito": "images/auto.jpg",
+      "descripcion": "gran turismo",
+      "precio": "$200"
     }
   ]
 }

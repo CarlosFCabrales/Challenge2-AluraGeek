@@ -135,12 +135,19 @@ input[type=submit]:hover {
     background-color: rgb(154, 154, 154);
 }
 
+input[type=submit].itemBorrar {
+    margin-top: 4%;
+    padding: 2%;
+    font-size: 0.5rem;       
+}
+
 
 footer {
     width: 100%;
     position: relative;
     bottom: 0;
-    display: flex;        
+    display: flex;     
+    flex-direction: column;   
     justify-content: center;
     align-items: center;
     font-size: 1vw;

@@ -1,6 +1,6 @@
 
 
-/* Funcion para limpiar las dos cajas de texto */
+/* Funcion para limpiar las cajas de texto */
 function limpia() {
     document.getElementById('nProducto').value = '';
     document.getElementById('nPrecio').value = '';
