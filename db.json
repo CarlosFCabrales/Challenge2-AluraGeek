@@ -3,38 +3,50 @@
     {
       "id": "1",
       "fotito": "images/miniNes.jpg",
-      "descripcion": "Super Nintendo",
-      "precio": "$19,500"
+      "descripcion": "gran turismo",
+      "precio": "$200"
     },
     {
       "id": "2",
       "fotito": "images/miniGB.jpg",
-      "descripcion": "Sega Saturn",
-      "precio": "$3,500"
+      "descripcion": "Game Boy",
+      "precio": "$200"
     },
     {
-      "id": "3",
-      "fotito": "images/miniGB.jpg",
-      "descripcion": "Sony Playstation",
-      "precio": "$1,000"
-    },
-    {
-      "id": "4",
-      "fotito": "images/miniNes.jpg",
-      "descripcion": "Dreamcast",
-      "precio": "$5,900"
-    },
-    {
-      "id": "81d7",
+      "id": "96",
       "fotito": "images/japon.jpg",
-      "descripcion": "Cartoon",
-      "precio": "$5.00"
+      "descripcion": "Super Mario",
+      "precio": "$670"
     },
     {
-      "id": "2f4b",
+      "id": "91",
       "fotito": "images/auto.jpg",
       "descripcion": "gran turismo",
-      "precio": "$200"
+      "precio": "$450"
+    },
+    {
+      "id": "80",
+      "fotito": "images/miniGB.jpg",
+      "descripcion": "Game Boy DS",
+      "precio": "$870"
+    },
+    {
+      "id": "7",
+      "fotito": "images/miniNes.jpg",
+      "descripcion": "Nintendo",
+      "precio": "$350"
+    },
+    {
+      "id": "b8eb",
+      "fotito": "images/auto.jpg",
+      "descripcion": "gran turismo",
+      "precio": "$8,900"
+    },
+    {
+      "id": "44ef",
+      "fotito": "images/japon.jpg",
+      "descripcion": "Super Mario",
+      "precio": "$1,000,000"
     }
   ]
 }
