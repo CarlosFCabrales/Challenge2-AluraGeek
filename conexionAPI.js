@@ -1,5 +1,5 @@
 async function listarProductos() {
-    const conexion = await fetch("https://github.com/CarlosFCabrales/Challenge2-AluraGeek/blob/main/db.json/productos");
+    const conexion = await fetch("http://localhost:3001/productos");
 
     const conexionConvertida = conexion.json();
 
